@@ -13,3 +13,7 @@ It is recommended you change the `user-agent` on line 10 to a string unique to y
 ### Facebook Quantified Selfie
 
 The `quantified-selfie.ipynb` file is a Jupyter Notebook that uses personal data downloaded from Facebook to investigate what the service knows about the user. The notebook walks through a number of the files included in the data dump. (Note: The notebook assumes you downloaded the data in JSON format.) In order to use the file you'll need to add a path to the Facebook dump in the `FACEBOOK_PATH` variable.
+
+### Blockchain Explorer
+
+The `blockchain-explore.ipynb` file is a Jupyter Notebook that allows you to explore the transactions for a group of Bitcoin wallet addresses. The notebook is currently set up to explore a set of addresses associated with a federal indictment, but it can be used to explore any content you're interested in. It requires you install the `blockchain` package along with Pandas prior to execution.
