@@ -17,3 +17,7 @@ The `quantified-selfie.ipynb` file is a Jupyter Notebook that uses personal data
 ### Blockchain Explorer
 
 The `blockchain-explore.ipynb` file is a Jupyter Notebook that allows you to explore the transactions for a group of Bitcoin wallet addresses. The notebook is currently set up to explore a set of addresses associated with a federal indictment, but it can be used to explore any content you're interested in. It requires you install the `blockchain` package along with Pandas prior to execution.
+
+### OpenAI Interaction
+
+The `openai-interaction.ipynb` file is a Jupyter Notebook that sets up some basic interaction with the OpenAI API. It requires you install the `openai` package prior to execution. You will also need an environmental variable for your `OPENAI_API_KEY`, which can be found in your user profile.
