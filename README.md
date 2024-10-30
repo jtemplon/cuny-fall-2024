@@ -21,3 +21,11 @@ The `blockchain-explore.ipynb` file is a Jupyter Notebook that allows you to exp
 ### OpenAI Interaction
 
 The `openai-interaction.ipynb` file is a Jupyter Notebook that sets up some basic interaction with the OpenAI API. It requires you install the `openai` package prior to execution. You will also need an environmental variable for your `OPENAI_API_KEY`, which can be found in your user profile.
+
+### Citi Bike Basics
+
+The `CitiBikeBasics.ipynb` file is a Jupyter Notebook that does some basic analysis of Citi Bike data. This notebook requires the `pandas` package to run. You will need to download the `202409-citibike-tripdata.zip` file from Citi Bike's [data repository](https://s3.amazonaws.com/tripdata/index.html) and unzip it into the same directory as the Notebook for it to run properly. (You do not need to unzip the CSVs in the zip.)
+
+### Citi Bike Real-Time
+
+The `CitiBikeRealTime.ipynb` file is a Jupyter Notebook that does analysis of Citi Bike's [real-time data portal](https://gbfs.citibikenyc.com/gbfs/2.3/gbfs.json). This notebook requires the `pandas` and `requests` libraries in order to run. If you have them installed it will pull and analyze data for the system in real-time.
