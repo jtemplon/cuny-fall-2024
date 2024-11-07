@@ -30,6 +30,11 @@ The `CitiBikeBasics.ipynb` file is a Jupyter Notebook that does some basic analy
 
 The `CitiBikeRealTime.ipynb` file is a Jupyter Notebook that does analysis of Citi Bike's [real-time data portal](https://gbfs.citibikenyc.com/gbfs/2.3/gbfs.json). This notebook requires the `pandas` and `requests` libraries in order to run. If you have them installed it will pull and analyze data for the system in real-time.
 
+
+### Citi Bike K-Means
+
+The `CitiBikeKMeans.ipynb` file is a Jupyter Notebook that implements a K-Means clustering algorithm for Citi Bike stations using the Citi Bike trip data. You'll need the same data as the Citi Bike Basics notebook. In addition, in order to do the mapping you'll need `geopands` and `matplotlib` installed. You'll also need a GeoJSON version of NYC, which you can [download here](https://github.com/codeforgermany/click_that_hood/blob/main/public/data/new-york-city-boroughs.geojson) (and other places). In order to do the K-Means clustering you'll need to install `scikit-learn`.
+
 ### Spy Planes Random Forest
 
 The `spy-planes-random-forest.ipynb` file is a Jupyter Notebook that implements the Random Forest model in Python based on Peter Aldhous's [original R code](https://github.com/BuzzFeedNews/2017-08-spy-plane-finder/blob/master/index.Rmd). The notebook requires `pandas`, `numpy`, `scikit-learn` and `matplotlib`. If you have them installed and the data from the original GitHub repository accessible to the notebook, it will create a Random Forest model with some explanations and visualizations. The "Your Turn" section at the end is left intentionally blank as the beginning of an individual in-class exercise.
