@@ -33,7 +33,7 @@ The `CitiBikeRealTime.ipynb` file is a Jupyter Notebook that does analysis of Ci
 
 ### Citi Bike K-Means
 
-The `CitiBikeKMeans.ipynb` file is a Jupyter Notebook that implements a K-Means clustering algorithm for Citi Bike stations using the Citi Bike trip data. You'll need the same data as the Citi Bike Basics notebook. In addition, in order to do the mapping you'll need `geopands` and `matplotlib` installed. You'll also need a GeoJSON version of NYC, which you can [download here](https://github.com/codeforgermany/click_that_hood/blob/main/public/data/new-york-city-boroughs.geojson) (and other places). In order to do the K-Means clustering you'll need to install `scikit-learn`.
+The `CitiBikeKMeans.ipynb` file is a Jupyter Notebook that implements a K-Means clustering algorithm for Citi Bike stations using the Citi Bike trip data. You'll need the same data as the Citi Bike Basics notebook. In addition, in order to do the mapping you'll need `geopandas` and `matplotlib` installed. You'll also need a GeoJSON version of NYC, which you can [download here](https://github.com/codeforgermany/click_that_hood/blob/main/public/data/new-york-city-boroughs.geojson) (and other places). In order to do the K-Means clustering you'll need to install `scikit-learn`.
 
 ### Spy Planes Random Forest
 
