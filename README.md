@@ -38,3 +38,19 @@ The `CitiBikeKMeans.ipynb` file is a Jupyter Notebook that implements a K-Means 
 ### Spy Planes Random Forest
 
 The `spy-planes-random-forest.ipynb` file is a Jupyter Notebook that implements the Random Forest model in Python based on Peter Aldhous's [original R code](https://github.com/BuzzFeedNews/2017-08-spy-plane-finder/blob/master/index.Rmd). The notebook requires `pandas`, `numpy`, `scikit-learn` and `matplotlib`. If you have them installed and the data from the original GitHub repository accessible to the notebook, it will create a Random Forest model with some explanations and visualizations. The "Your Turn" section at the end is left intentionally blank as the beginning of an individual in-class exercise.
+
+### Image Breakdown Example
+
+The `image-breakdown-example.ipynb` file is a Jupyter Notebook designed to show how images can be converted to data. You'll need to give it an example image so it can find the RGB layers and the metadata. The notebook requires `PIL`.
+
+### Face Recognition
+
+The `face-recognition.ipynb` file is a Jupyter Notebook that does basic facial recognition tasks using the [`face-recognition`](https://github.com/ageitgey/face_recognition) library. There is some setup for this library, including pre-installing `cmake` and `dlib`. See the **Installation** header in the GitHub repository for more information. The notebook also requires `PIL`, which should be installed as part of the library installation. You'll also need any number of photos of yourself. To make the notebook work:
+
+1. Direct it at the best image as the `me_image`
+2. Attempt to find faces on the others
+3. Use the last part of the notebook to debug any "issues" finding faces
+
+### Satellite Analysis Basics
+
+The `satellite-analysis-basics.ipynb` file is a Jupyter Notebook that contains the compontent pieces for doing YOLO object detection with oriented bounding boxes on Umbra's [open data catalog](https://registry.opendata.aws/umbra-open-data/) of satellite images. You will need the following libraries: `boto3`, `ultralytics`, `pandas` and `PIL`. The notebook contains code for finding the images in s3, processing them with YOLO, and making those results more interpretable.
