@@ -54,3 +54,11 @@ The `face-recognition.ipynb` file is a Jupyter Notebook that does basic facial r
 ### Satellite Analysis Basics
 
 The `satellite-analysis-basics.ipynb` file is a Jupyter Notebook that contains the compontent pieces for doing YOLO object detection with oriented bounding boxes on Umbra's [open data catalog](https://registry.opendata.aws/umbra-open-data/) of satellite images. You will need the following libraries: `boto3`, `ultralytics`, `pandas` and `PIL`. The notebook contains code for finding the images in s3, processing them with YOLO, and making those results more interpretable.
+
+### Text Analysis
+
+The `text-analysis.ipynb` file is a Jupyter Notebook that contains the component pieces for building a KMeans classifier that handles articles from the New York Times. You will need the `gensim` and `pandas` libraries to run the notebook. In addition, there is some exploration of the Google Word2Vec model, which requires an additional download.
+
+### Yelp Reviews
+
+The `yelp-reviews.ipynb` file is a Jupyter Notebook that contains the code necessary to create a sentiment classifier of Yelp reviews based on example data. In order to use the Yelp data you'll need a new CSV that includes the "sentiment" for a number of the reviews as an additional column. The notebook requires `textblob` and `pandas`. There is an additional one-time download inside of the notebook for an NLTK corpora.
