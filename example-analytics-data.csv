@@ -1,0 +1,15 @@
+User ID,Name,Date of Birth,Session ID,Date,Page URL,Pageviews,Session Duration,Bounce Rate,Device Type,Traffic Source,Location,Conversion
+1,John Doe,3/6/2004,S001,2024-11-25,/home,5,320,20,Mobile,Organic Search,"New York, USA",Yes
+1,John Doe,3/6/2004,S008,2024-11-26,/product/xyz,4,200,25,Desktop,Direct,"New York, USA",No
+2,Jane Doe,6/10/2002,S002,2024-11-25,/product/abc,3,180,33,Desktop,Direct,"London, UK",No
+2,Jane Doe,6/10/2002,S009,2024-11-26,/checkout,7,350,14,Tablet,Paid Search,"London, UK",Yes
+3,Timothy James,11/3/1999,S003,2024-11-26,/blog/5-tips,2,90,50,Mobile,Social Media,"Sydney, AUS",No
+3,Timothy James,11/3/1999,S010,2024-11-27,/home,3,150,40,Mobile,Referral,"Sydney, AUS",No
+4,Sandra James,5/8/1962,S004,2024-11-26,/checkout,8,400,10,Tablet,Referral,"Mumbai, IND",Yes
+4,Sandra James,5/8/1962,S011,2024-11-27,/thank-you,1,60,0,Mobile,Referral,"Mumbai, IND",Yes
+5,Elphaba Smith,4/12/1984,S005,2024-11-26,/contact-us,1,60,100,Desktop,Paid Search,"Toronto, CAN",No
+5,Elphaba Smith,4/12/1984,S012,2024-11-27,/services,2,120,50,Mobile,Organic Search,"Toronto, CAN",No
+6,Glinda Smith,9/6/1983,S006,2024-11-26,/services,4,300,25,Mobile,Organic Search,"Berlin, DEU",Yes
+6,Glinda Smith,9/6/1983,S013,2024-11-27,/about-us,5,180,30,Tablet,Social Media,"Berlin, DEU",No
+7,Harry Potter,6/10/2001,S007,2024-11-26,/about-us,6,240,15,Desktop,Email Campaign,"Paris, FRA",No
+7,Harry Potter,6/10/2001,S014,2024-11-27,/blog/new-post,3,110,45,Mobile,Direct,"Paris, FRA",No
