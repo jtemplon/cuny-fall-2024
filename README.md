@@ -62,3 +62,11 @@ The `text-analysis.ipynb` file is a Jupyter Notebook that contains the component
 ### Yelp Reviews
 
 The `yelp-reviews.ipynb` file is a Jupyter Notebook that contains the code necessary to create a sentiment classifier of Yelp reviews based on example data. In order to use the Yelp data you'll need a new CSV that includes the "sentiment" for a number of the reviews as an additional column. The notebook requires `textblob` and `pandas`. There is an additional one-time download inside of the notebook for an NLTK corpora.
+
+### Data Masking
+
+The `data-masking.ipynb` file is a Jupyter Notebook that contains an exercise around masking data.
+
+### OpenAI Examples
+
+The `openai-examples.ipynb` file is a Jupyter Notebook that contains three examples for interacting with the OpenAI API. It requires you install the `openai` package prior to execution. You will also need an environmental variable for your `OPENAI_API_KEY`, which can be found in your user profile. In addition, you'll need the libraries that have already been installed for other notebooks. The notebook also requires the `office-furniture.jpg` image if you want to analyze that one, otherwise you can pick a different image for the Vision examples.
